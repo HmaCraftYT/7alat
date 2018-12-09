@@ -38,4 +38,4 @@ if (message.content.startsWith(adminprefix + 'setava')) {
 });
 
 
-client.login("MzE3NzI1MTgxNzA1NTg0NjQx.Du7C4A.riK7DGnjFLRs_AR90DPRDv9ogAw");// لا تغير فيها شيء
+client.login(process.env.BOT_TOKEN);// لا تغير فيها شيء
